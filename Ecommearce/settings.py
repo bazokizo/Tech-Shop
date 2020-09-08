@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'du6pe=-xszel5x*6-3i-*de&9#2j&c
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'arcane-citadel-70593.herokuapp.com']
 
 
 # Application definition
