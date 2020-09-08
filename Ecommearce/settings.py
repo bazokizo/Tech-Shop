@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #SECRET_KEY = 'du6pe=-xszel5x*6-3i-*de&9#2j&c%j2w-^lp%6*%fvk2m+ou'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'du6pe=-xszel5x*6-3i-*de&9#2j&c%j2w-^lp%6*%fvk2m+ou')
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+DEBUG = True
+#DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [ 'arcane-citadel-70593.herokuapp.com']
 
